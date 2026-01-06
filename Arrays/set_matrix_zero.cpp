@@ -38,22 +38,3 @@ public:
         }
     }
 };
-
-int main() {
-    // Example matrix
-    vector<vector<int>> matrix = {{1,1,1},{1,0,1},{1,1,1}};
-    
-    // Create Solution object
-    Solution sol;
-    // Call function to modify matrix
-    sol.setZeroes(matrix);
-    
-    // Print final matrix
-    for (auto row : matrix) {
-        for (auto val : row) {
-            cout << val << " ";
-        }
-        cout << endl;
-    }
-    return 0;
-}
