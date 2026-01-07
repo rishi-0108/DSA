@@ -12,7 +12,10 @@ void reverse(int i, int n , int arr[]){
     swap(arr[i],arr[n-i]);
     reverse(i+1,n,arr);
 }
-
+void printarr(int arr[],int n){
+    for(int i=0;i<n;i++)
+    cout<<arr[i]<<endl;
+}
 
 int main(){
     int a[] =  {1,2,3,4,5};
