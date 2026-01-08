@@ -35,21 +35,4 @@ public:
     }
 };
 
-int main() {
-    // Input array
-    vector<int> arr = {3, 1, 2, 4};
 
-    // Target sum
-    int k = 6;
-
-    // Create Solution object
-    Solution sol;
-
-    // Call function and store result
-    int result = sol.subarraySum(arr, k);
-
-    // Print the count of subarrays
-    cout << "The number of subarrays is: " << result << "\n";
-
-    return 0;
-}
