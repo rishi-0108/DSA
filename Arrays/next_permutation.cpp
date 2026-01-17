@@ -15,12 +15,32 @@ public:
         }
         if(ind==-1){
             reverse(nums.begin(),nums.end());
+            return;
         }
         for(int i=nums.size()-1;i>ind;i--){
             if(nums[i]>nums[ind]){
                 swap(nums[i],nums[ind]);
+                break;
             }
         }
         reverse(nums.begin()+ind+1,nums.end());
     }
 };
+int main() {
+    // Input array
+    vector<int> nums = {1,3,2};
+
+    // Create object
+    Solution sol;
+
+    // Call the function
+    sol.nextPermutation(nums);
+
+    // Print result
+    for (int num : nums) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
