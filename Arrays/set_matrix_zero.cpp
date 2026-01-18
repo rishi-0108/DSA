@@ -33,3 +33,15 @@ public:
         }
     }
 };
+int main() {
+    Solution obj;
+    vector<vector<int>> matrix = {{0,1,2,0},{3,4,5,2},{1,3,1,5}};
+    obj.setZeroes(matrix);
+    for (auto row : matrix) {
+        for (auto val : row) {
+            cout << val << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
