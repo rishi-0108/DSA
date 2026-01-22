@@ -4,6 +4,9 @@
 using namespace std;
 class Solution {
 public:
+    /*
+    Basic factorial thinking method - nearly O(3n)
+
     long long factorial(int n){
         long long res=1;
         for(int i=1;i<=n;i++){
@@ -19,6 +22,17 @@ public:
         long long res=num/den;
         return res;
 
+    }*/
+
+    long long findpascalelement(int r,int c){
+        int n=r-1;
+        int k=c-1;
+        long long res=1;
+        for(int i=0;i<k;i++){
+            res=res*(n-i);
+            res=res/(i+1);
+        }
+        return res;
     }
 };
 int main() {
