@@ -34,10 +34,27 @@ public:
         }
         return res;
     }
+    vector<vector<int>> generate(int numRows){
+        vector<vector<int>> triangle;
+        for(int i=0;i<numRows;i++){
+            vector<int> row(i+1,1);
+            for(int j=1;j<i;j++){
+                row[j]=triangle[i-1][j-1]+triangle[i-1][j];
+            }
+            triangle.push_back(row);
+        }
+        return triangle;
+    }
+
 };
 int main() {
-    Solution sol;
-    int r = 5, c = 3;
-    cout << sol.findpascalelement(r, c);
-    return 0;
+    Solution obj;
+    int n = 10;
+
+    // Generate and print Pascal's Triangle
+    vector<vector<int>> result = obj.generate(n);
+    for (auto &row : result) {
+        for (auto &val : row) cout << val << " ";
+        cout << endl;
+    }
 }
