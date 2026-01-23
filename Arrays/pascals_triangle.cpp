@@ -23,6 +23,16 @@ public:
         return res;
 
     }*/
+    vector<long long> getNthRow(int n){
+        vector<long long> row(n,1);
+        long long element=1;
+        for(int i=1;i<=n-1;i++){
+            element = element * (n-i);
+            element = element /i;
+            row[i]=element;
+        }
+        return row;
+    }
 
     long long findpascalelement(int r,int c){
         int n=r-1;
@@ -48,13 +58,13 @@ public:
 
 };
 int main() {
-    Solution obj;
-    int n = 10;
+    int N = 15; // Example: 5th row
+    Solution sol;
+    vector<long long> result = sol.getNthRow(N);
 
-    // Generate and print Pascal's Triangle
-    vector<vector<int>> result = obj.generate(n);
-    for (auto &row : result) {
-        for (auto &val : row) cout << val << " ";
-        cout << endl;
+    // Print the row
+    for (auto num : result) {
+        cout << num << " ";
     }
+    return 0;
 }
