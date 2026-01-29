@@ -1,10 +1,26 @@
 #include<iostream>
 #include<vector>
+#include<map>
 #include<bits/stdc++.h>
 using namespace std;
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
+        unordered_map<int,int> freq;
+        vector<int> res;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            freq[nums[i]]++;
+        }
+        for(auto& x:freq){
+            if(x.second > (n/3)){
+                res.push_back(x.first);
+            }
+            if(res.size()==2)break;
+        }
+        return res;
+    }
+    vector<int> majorityElement_brute(vector<int>& nums) {
         vector<int> res;
         for(int i=0;i<nums.size();i++){
             
