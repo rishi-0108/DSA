@@ -17,7 +17,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
             if(sum==target){
                 two_sum.push_back(numind[left].second);
                 two_sum.push_back(numind[right].second);
-                
+                break;
             }
             else if (sum>target){
                 right--;
