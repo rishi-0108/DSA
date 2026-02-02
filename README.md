@@ -1,19 +1,46 @@
-# DSA Practice
+# 📘 DSA Practice Repository
 
-This repository contains my solutions to Data Structures and Algorithms problems.  
-I use it to practice coding, improve problem-solving skills, and track my progress over time.
+This repository contains my curated solutions to **Data Structures and Algorithms (DSA)** problems.  
+It serves as a structured log of my practice, learning progress, and approach to problem-solving in preparation for technical interviews and competitive coding.
 
-## Structure
-The problems are grouped by topic (arrays, strings, linked lists, trees, graphs, etc.).  
-Each file contains the solution code, and in some cases comments explaining the logic.
+---
 
-## Goals
-- Build strong fundamentals in DSA
-- Solve problems consistently
-- Revisit and improve older solutions
-- Prepare for technical interviews
+## 📂 Repository Structure
 
-## How to Run
-Most solutions are written in C++ and can be compiled using:
+Problems are organized by topic for clarity and systematic learning:
 
-Refresh contribution graph
+- Arrays
+- Strings
+- Linked Lists
+- Stacks & Queues
+- Trees
+- Graphs
+- Recursion & Backtracking
+- Sorting & Searching
+- Dynamic Programming
+- Miscellaneous Patterns
+
+Each file includes:
+- Clean and readable C++ implementation
+- Logical approach in comments (where necessary)
+- Optimized and brute-force versions for comparison (for selected problems)
+
+---
+
+## 🎯 Goals of This Repository
+
+- Strengthen core DSA fundamentals
+- Practice problems consistently
+- Track improvement over time
+- Revisit and optimize older solutions
+- Prepare effectively for coding interviews
+
+---
+
+## ⚙️ How to Run the Code
+
+Most programs are written in **C++**.
+
+### Compile
+```bash
+g++ filename.cpp -o output
