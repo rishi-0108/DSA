@@ -1,0 +1,236 @@
+[33mcommit b0b616db2f336107693262376f151fc5513e8c83[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 31 21:02:55 2026 +0530
+
+    Fixed a minor error in the code of 2 Sum problem
+
+[33mcommit d1a91aa25b08fafe5667191d8bd1c437583145a1[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 31 21:02:03 2026 +0530
+
+    Solved the optimaml code for 2 Sum and revised it for solving 3 sum problem
+
+[33mcommit 5e555d5555d163fa8dcb4db68c227de97e4eede8[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Fri Jan 30 01:00:28 2026 +0530
+
+    Brainstromed for the approch to solve the 3 sum problem (arrays)
+
+[33mcommit ef37fb38e5b5b81843fdaa858ef4552890f8b7d4[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 29 22:58:31 2026 +0530
+
+    Fixed a minor bug in the optimal solution of the Majority element Problem N>3 (Arrays - hard)
+
+[33mcommit 99a9ec5965a5c24746641c91c1ba8eda4f8bfc3c[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 29 22:57:36 2026 +0530
+
+    Tested the optimal soution with different test cases
+
+[33mcommit bafc2bd547a1e1755306420cf3d55dcb11d3fd63[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 29 22:56:36 2026 +0530
+
+    Solved the optimal solution for - Majority element n>3
+
+[33mcommit f12c908988a441cb669163e6eb9f8d6353ef118c[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 29 18:56:39 2026 +0530
+
+    Solved the better solution for problem - Majority element n>3 - Hash map approch
+
+[33mcommit b050fe38959ed8883c793e69b10bde9550075843[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Tue Jan 27 18:32:54 2026 +0530
+
+    Updated the brute force solution for majority element n>3
+
+[33mcommit cc02e0c1941b3779863122dcb3be722c73a66528[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Wed Jan 28 23:03:17 2026 +0530
+
+    Tried the brute force solution for majority element and the optimal approch for the problem
+
+[33mcommit 2c69f595d0d1475dbf37dad9f901434b2d11eeea[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Wed Jan 28 23:02:19 2026 +0530
+
+    Tried the brute force solution for majority element
+
+[33mcommit ed1533e7b0a59f77b3603b865b410246768dfc19[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Mon Jan 26 22:16:14 2026 +0530
+
+    Tried the approch for the majority element n>3
+
+[33mcommit 4a25cf8e5c3f2075679956bba17c00d7806218c5[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 8 00:56:05 2026 +0530
+
+    tried a recursoin problem
+
+[33mcommit 567950cafc96734c957e40983859c0209b2d4274[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 8 00:55:31 2026 +0530
+
+    Practiced a recursion problem
+
+[33mcommit cd6cc66723e4e81ab3530cbacf6539dcb8765cd8[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Fri Jan 2 00:54:22 2026 +0530
+
+    Revised recursion and prcaticed a program
+
+[33mcommit 054baf9c30f1fae30f7ababfa0fbd0e31a5438ed[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Tue Jan 6 00:53:12 2026 +0530
+
+    Revised recursion program
+
+[33mcommit 3392ed5b7836b15fafd74935a8a8545f0fda7637[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 10 00:51:37 2026 +0530
+
+    Updated the final code for quick sort after minor bug fix
+
+[33mcommit db11a13e0f3c80fed7850598711d6b7b2d64d79b[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 25 13:17:38 2026 -0600
+
+    Fixed a minor bug in the alogrith of quick sort
+
+[33mcommit dca34257d440379e2af5a33f5c6ed1a485644fbc[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 25 13:16:52 2026 -0600
+
+    Tested the code with drivers menu
+
+[33mcommit 7da654a557ae5b1b9582cf4e917ba884b313b712[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 25 13:15:53 2026 -0600
+
+    Revised quick sort
+
+[33mcommit 59b2b08412db4d03917a7a09f031f4da6a9e84be[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 24 19:43:37 2026 +0530
+
+    Practiced bubbble sort
+
+[33mcommit c4bc8c0d11695ec0015e52bca5f6940c4edb4ae5[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 24 19:42:57 2026 +0530
+
+    Revides Bubble sort
+
+[33mcommit dcdfbf532b31de0bc5b39d7b5e6b4cd9e67ab58c[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Fri Jan 23 21:43:53 2026 +0530
+
+    Solved the variant of Pascal's triangle - generate the nth row
+
+[33mcommit 280f3df9ffb1775644b726628de9457f90099470[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 22 21:55:12 2026 +0530
+
+    Solved the Pascal's triangle problem - Generate pascal triangle for given n rows
+
+[33mcommit 97182772f5d180e074bebc7cb03ea29b6635bc77[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 22 21:35:36 2026 +0530
+
+    Solved a better solution for finding the pascals element
+
+[33mcommit 206bdb0c9d7d12dabe1cab2772b8a6c2c6828d6b[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Thu Jan 22 21:22:13 2026 +0530
+
+    Solved the Sub problem of Pascals Triangle - Find the element at given row and column
+
+[33mcommit 5d31a3203977b072a41753eb702a84f413201f5a[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Wed Jan 21 01:13:22 2026 +0530
+
+    Revised Seection sort
+
+[33mcommit 2b80ba05c84906ca2dbfc7af7aa2d6f30e522e62[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Tue Jan 20 22:53:55 2026 +0530
+
+    Revised insertion sort
+
+[33mcommit 1ffc930cfcbfb7e5e124d396ea3bb3a69c5dc70b[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Mon Jan 19 22:35:38 2026 +0530
+
+    Attempted solving the 3sum problem (Arrays)Hard level
+
+[33mcommit 92df73925591ccb8b110276f983baec9bd70e142[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 18 19:36:17 2026 +0530
+
+    Added the drivers code after testing for various test cases
+
+[33mcommit 6cdff892ad1ffc459c1bf1449df2cd5b80df62ee[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 18 19:35:26 2026 +0530
+
+    tested the algoritm with drivers code
+
+[33mcommit 25b1b19bd96c9e4a3abaa305a27c5e8320a9116d[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 18 19:34:22 2026 +0530
+
+    Solved the question - set matrix to zero - By own trial algorithm methhod - tc O(mn(m+n)) , sc O(k)
+
+[33mcommit a280551edf30810441fa8a6e5691e695ce3cf35a[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sun Jan 18 00:06:31 2026 +0530
+
+    tried the optimal solution for - set matrix zero
+
+[33mcommit 32018286b99e2f86dbacfa8563a28fd566eafb37[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 17 22:10:39 2026 +0530
+
+    Tested the algorithm for various test cases with drivers code
+
+[33mcommit 1c703e9cd7d84bd269c95c58032e9d704e3948e1[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 17 21:58:09 2026 +0530
+
+    Solved the problem (Arrays) - Next Permutation
+
+[33mcommit 6f346c65a368700980ce51c39ea6c7b3ab115d48[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 17 21:34:51 2026 +0530
+
+    Started the problem (Arrays) - Next permutation
+
+[33mcommit dcf0aace8ac96d427232a809030aa00882259dba[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Sat Jan 17 21:31:28 2026 +0530
+
+    Modified the btree file
+
+[33mcommit 517ae4a6162c72aeab95466a4050455cba00ab02[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Fri Jan 16 21:12:15 2026 +0530
+
+    Solved the problem - Print the subarray with the largest sum
+
+[33mcommit 9faa5626c3b371c1a7f3ed994ebe596d257f06e1[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Fri Jan 16 21:02:24 2026 +0530
+
+    Solved the Brute force solution for the problem - Maximum subarray
+
+[33mcommit 0e15cf061443bdd1ffdf453d1690afce2baf5c9e[m
+Author: Rishi Vishwakarma <vish.rishi0108@gmail.com>
+Date:   Fri Jan 16 20:50:16 2026 +0530
+
+    Solved the Kadanes Algorithm problem
+
+[33mcommit bf87d16803737af38e04a500bfe8e3ee08bcc287[m
+Author: Rishi Vis
