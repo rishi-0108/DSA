@@ -77,7 +77,7 @@ int main() {
     vector<int> arr = {-1, 0, 1, 2, -1, -4};
     int n = arr.size();
     Solution obj;
-    vector<vector<int>> res = obj.threeSum(arr, n);
+    vector<vector<int>> res = obj.threeSum(arr);
 
     for (auto &triplet : res) {
         for (auto &num : triplet) cout << num << " ";
