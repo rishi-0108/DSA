@@ -41,15 +41,3 @@ public:
         return vector<vector<int>>(ans.begin(),ans.end());
     }
 };
-int main() {
-    vector<int> arr = {-1,0,1,2,-1,-4};
-    int n = arr.size();
-    Solution obj;
-    vector<vector<int>> res = obj.threeSum_better(arr);
-
-    for (auto &triplet : res) {
-        for (auto &num : triplet) cout << num << " ";
-        cout << endl;
-    }
-    return 0;
-}
