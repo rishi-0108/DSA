@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> fourSum_brute(vector<int>& nums) {
-        vector<vector<int>> ans;
+        set<vector<int>> ans;
         int n= nums.size();
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
@@ -13,13 +13,15 @@ public:
                     for(int l=k+1;l<n;l++){
                         int sum=nums[i]+nums[j]+nums[k]+nums[l];
                         if(sum==0){
-                            ans.push_back({nums[i], nums[j], nums[k], nums[l]});
+                            vector<int> temp={nums[i], nums[j], nums[k], nums[l]};
+                            sort(temp.begin(),temp.end());
+                            ans.insert(temp);
                         }
                     }
                 }
             }
         }
-        return ans;
+        return vector<vector<int>>(ans.begin(),ans.end());
     }
 };
 int main() {
