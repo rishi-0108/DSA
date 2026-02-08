@@ -23,6 +23,25 @@ public:
         }
         return vector<vector<int>>(ans.begin(),ans.end());
     }
+    vector<vector<int>> fourSum_better(vector<int>& nums, int target) {
+        set<vector<int>> ans;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                set<int> st;
+                for(int k=j+1;k<n;k++){
+                    int req=target-(nums[i]+nums[j]+nums[k]);
+                    if(st.find(req) != st.end()){
+                        vector<int> temp={nums[i],nums[j],nums[k],req};
+                        sort(temp.begin(),temp.end());
+                        ans.insert(temp);
+                    }
+                    st.insert(nums[k]);
+                }
+            }
+        }
+        return vector<vector<int>>(ans.begin(),ans.end());
+    }
 };
 int main() {
     // Input array
@@ -33,7 +52,7 @@ int main() {
     // Create object
     Solution obj;
     // Get all quadruplets
-    vector<vector<int>> ans = obj.fourSum_brute(arr);
+    vector<vector<int>> ans = obj.fourSum_better(arr,target);
 
     // Print result
     for (auto quad : ans) {
