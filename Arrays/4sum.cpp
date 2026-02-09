@@ -51,7 +51,7 @@ public:
                     int k=j+1;
                     int l=n-1;
                     while(k<l){
-                        long long sum = nums[i]+nums[l]+nums[j]+nums[k];
+                        long long sum = (long long)nums[i]+nums[l]+nums[j]+nums[k];
                         if(sum>target)
                         l--;
                         else if(sum<target)
