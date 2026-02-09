@@ -42,6 +42,30 @@ public:
         }
         return vector<vector<int>>(ans.begin(),ans.end());
     }
+    vector<vector<int>> fourSum_optimal(vector<int>& nums, int target) {
+        set<vector<int>> ans;
+        sort(nums.begin(),nums.end());
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                    int k=j+1;
+                    int l=n-1;
+                    while(k<l){
+                        int sum = nums[i]+nums[l]+nums[j]+nums[k];
+                        if(sum>target)
+                        l--;
+                        else if(sum<target)
+                        k++;
+                        else{
+                            ans.insert({nums[i],nums[j],nums[k],nums[l]});
+                            k++;
+                            l--;
+                        }
+                    }
+                }
+            }
+        return vector<vector<int>>(ans.begin(),ans.end());
+    }
 };
 int main() {
     // Input array
@@ -52,7 +76,7 @@ int main() {
     // Create object
     Solution obj;
     // Get all quadruplets
-    vector<vector<int>> ans = obj.fourSum_better(arr,target);
+    vector<vector<int>> ans = obj.fourSum_optimal(arr,target);
 
     // Print result
     for (auto quad : ans) {
