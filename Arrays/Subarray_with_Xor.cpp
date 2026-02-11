@@ -4,7 +4,7 @@
 using namespace std;
 class Solution{
     public:
-    int countSubarraysXOR(vector<int> &a,int b){
+    int countSubarraysXOR_brute(vector<int> &a,int b){
         int c=0;
         int n=a.size();
         for(int i=0;i<n;i++){
@@ -14,6 +14,19 @@ class Solution{
                 if(xorval==b)
                 c++;
             }
+        }
+        return c;
+    }
+    int countSubarraysXOR(vector<int> &a,int b){
+        int xr=0;
+        map<int,int> mpp;
+        mpp[xr]++;
+        int c=0;
+        for(int i=0;i<a.size();i++){
+            xr=xr^a[i];
+            int x=xr^b;
+            c+=mpp[x];
+            mpp[xr]++;
         }
         return c;
     }
