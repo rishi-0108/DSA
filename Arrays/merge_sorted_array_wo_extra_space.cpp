@@ -67,7 +67,7 @@ class Solution {
                 j--;
             }
         }
-        while(k>=0){
+        while(j>=0){
             swap(nums1[k],nums2[j]);
             j--;
             k--;
