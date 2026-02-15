@@ -20,6 +20,18 @@ public:
         }
         return maxi;
     }
+    int maxProduct_brute(vector<int>& nums) {
+        int maxi=INT_MIN;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            int pro=1;
+            for(int j=i;j<n;j++){
+                pro*=nums[j];
+                maxi=max(maxi,pro);
+            }
+        }
+        return maxi;
+    }
 };
 int main() {
     // Sample input
@@ -29,7 +41,7 @@ int main() {
     Solution sol;
 
     // Print the result
-    cout << sol.maxProduct(nums);
+    cout << sol.maxProduct_brute(nums);
 
     return 0;
 }
