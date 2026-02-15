@@ -21,3 +21,15 @@ public:
         return maxi;
     }
 };
+int main() {
+    // Sample input
+    vector<int> nums = {2, 3, -2, 4};
+
+    // Create Solution object
+    Solution sol;
+
+    // Print the result
+    cout << sol.maxProduct(nums);
+
+    return 0;
+}
