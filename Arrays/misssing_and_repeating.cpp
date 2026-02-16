@@ -4,6 +4,26 @@ using namespace std;
 class Solution{
     public :
 
+    vector<int> findMissingRepeatingNumbers_brute(vector<int>& nums) {
+        vector<int> ans;
+        int repeat;
+        int missing;
+        for(int i=0;i<nums.size();i++){
+            int c=0;
+            for(int j=0;j<nums.size();j++){
+                if(nums[i]==nums[j])
+                c++;
+            }
+            if(c==2){
+                repeat=i;
+            }
+            else if(c==0){
+                missing = i;
+            }
+        }
+        ans={repeat,missing};
+        return ans;
+    }
     vector<int> findMissingRepeatingNumbers(vector<int>& nums) {
         int n=nums.size();
         int hash[n+1]={0};
