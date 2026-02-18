@@ -24,7 +24,7 @@ class Solution{
         ans={repeat,missing};
         return ans;
     }
-    vector<int> findMissingRepeatingNumbers(vector<int>& nums) {
+    vector<int> findMissingRepeatingNumbers_better(vector<int>& nums) {
         int n=nums.size();
         int hash[n+1]={0};
         for(int i=0;i<n;i++){
@@ -41,6 +41,22 @@ class Solution{
             ans.push_back(i);
         }
         return ans;
+    }
+    vector<int> findMissingRepeatingNumbers(vector<int>& nums) {
+        long long n=nums.size();
+        long long Sn=(n*(n+1))/2;
+        long long S2n=(n*(n+1)*((2*n)+1))/6;
+        long long S,S2;
+        for(int i=0;i<n;i++){
+            S=S+nums[i];
+            S2=S2+nums[i]*nums[i];
+        }
+        long long val1=S-Sn;//X-Y
+        long long val2=S2-S2n;//x^2-Y^2
+        val2=val2/val1;//X+Y
+        int repeat=(int)((val1+val2)/2);
+        int missing=(int)(repeat-(S-Sn));
+        return {repeat,missing};
     }
 };
 int main() {
