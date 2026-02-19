@@ -46,7 +46,7 @@ class Solution{
         long long n=nums.size();
         long long Sn=(n*(n+1))/2;
         long long S2n=(n*(n+1)*((2*n)+1))/6;
-        long long S,S2;
+        long long S=0,S2=0;
         for(int i=0;i<n;i++){
             S=S+nums[i];
             S2=S2+nums[i]*nums[i];
