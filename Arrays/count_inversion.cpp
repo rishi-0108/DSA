@@ -61,5 +61,14 @@ int ms(vector<int>& a,int low ,int high){
 }
 
 int main() {
-   
+    // Input array
+    vector<int> a = {5, 4, 3, 2, 1};
+    int n = a.size();
+
+    // Count inversions
+    int cnt = numberOfInversions(a, n);
+
+    cout << "The number of inversions are: " << cnt << endl;
+
+    return 0;
 }
